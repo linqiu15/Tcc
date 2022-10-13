@@ -1,0 +1,1 @@
+In this version, I find a serious problem that PWA potentials is not evaluated right numerically. This is due to the overflow of integrand for very tiny momentum. Thus, I have to change such a part of codes. I hope that the matrix calculate turn to normal, consistent with the on-shell case.
