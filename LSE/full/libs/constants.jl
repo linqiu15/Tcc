@@ -30,3 +30,7 @@ const ΓRDsc = 1.32e-6;
 const ΓRDsn = 18.9561e-6;
 
 const hbarc = 0.1973269804; # GeV*fm
+
+# other particles
+const mρ1450=1.465;
+const mω1420=1.410;
