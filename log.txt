@@ -1,0 +1,1 @@
+In this version, I only test the case with direct rho/jpsi. After learning from the Power counting scheme, I device to modify my stategies and give three schemes a try.
