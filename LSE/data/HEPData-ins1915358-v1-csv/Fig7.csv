@@ -1,0 +1,33 @@
+#: table_doi: 10.17182/hepdata.113470.v1/t7
+#: name: Fig 7
+#: description: Background-subtracted distributions for the multiplicity of tracks reconstructed in the vertex detector for $T_{cc}^+\to D^0 D^0 \pi^+$ signal, low-mass $D^0\bar{D}^0$ and $D^0D^0$ pairs. The binning scheme is chosen to have an approximately uniform distribution for $D^0\bar{D}^0$ pairs. The distributions for the $D^0\bar{D}^0$ and $D^0D^0$ pairs are normalised to the same yields as the $T_{cc}^+\to D^0 D^0 \pi^+$ signal. For better visualisation, the points are slightly displaced from the bin centres. Uncertainties on the data points are statistical only and represent one standard deviation, calculated as a sum in quadrature of the assigned weights from the background-subtraction procedure.
+#: data_file: Fig_7.json
+#: keyword reactions: P P --> Tcc+ X
+#: keyword reactions: Tcc+ --> D0 D0 PI+
+#: keyword observables: DN/DM
+#: keyword cmenergies: 7000.0 | 8000.0 | 13000.0
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Invariant Mass Spectrum | Exotics | Tetraquark
+N tracks [],N tracks [] LOW,N tracks [] HIGH,Yield of $T_{cc}\to D^0D^0\pi^+$ [],stat +,stat -
+32.216595,0.0,64.43319,14.97308,5.61747,-5.61747
+73.923955,64.43319,83.41472,12.45776,5.35824,-5.35824
+91.91721000000001,83.41472,100.4197,43.40166,9.43678,-9.43678
+109.9709,100.4197,119.5221,27.28558,7.08658,-7.08658
+133.4441,119.5221,147.3661,50.05483,9.98351,-9.98351
+323.68305,147.3661,500.0,33.97238,8.74445,-8.74445
+
+N tracks [],N tracks [] LOW,N tracks [] HIGH,Yield of $D^0D^0$ [],stat +,stat -
+32.216595,0.0,64.43319,31.22527,0.20429,-0.20429
+73.923955,64.43319,83.41472,30.68159,0.20427,-0.20427
+91.91721000000001,83.41472,100.4197,30.32997,0.2045,-0.2045
+109.9709,100.4197,119.5221,29.82566,0.20388,-0.20388
+133.4441,119.5221,147.3661,30.40904,0.20728,-0.20728
+323.68305,147.3661,500.0,29.67377,0.21585,-0.21585
+
+N tracks [],N tracks [] LOW,N tracks [] HIGH,Yield of $D^0\bar{D}^0$ [],stat +,stat -
+32.216595,0.0,64.43319,17.13577,1.08525,-1.08525
+73.923955,64.43319,83.41472,22.82493,1.20516,-1.20516
+91.91721000000001,83.41472,100.4197,27.40601,1.30038,-1.30038
+109.9709,100.4197,119.5221,32.15287,1.3866,-1.3866
+133.4441,119.5221,147.3661,38.6753,1.518,-1.518
+323.68305,147.3661,500.0,43.95041,1.87238,-1.87238
+

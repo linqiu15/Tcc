@@ -1,0 +1,27 @@
+#: table_doi: 10.17182/hepdata.113470.v1/t8
+#: name: Fig 8
+#: description: Background-subtracted transverse momentum spectra for $T_{cc}^+\to D^0 D^0 \pi^+$ signal, low-mass $D^0\bar{D}^0$ and $D^0D^0$ pairs. The binning scheme is chosen to have an approximately uniform distribution for $D^0\bar{D}^0$ pairs. The distributions for the $D^0\bar{D}^0$ and $D^0D^0$ pairs are normalised to the same yields as the $T_{cc}^+\to D^0 D^0 \pi^+$ signal. For better visualisation, the points are slightly displaced from the bin centres. Uncertainties on the data points are statistical only and represent one standard deviation, calculated as a sum in quadrature of the assigned weights from the background-subtraction procedure.
+#: data_file: Fig_8.json
+#: keyword reactions: P P --> Tcc+ X
+#: keyword reactions: Tcc+ --> D0 D0 PI+
+#: keyword observables: DN/DM
+#: keyword cmenergies: 7000.0 | 8000.0 | 13000.0
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Invariant Mass Spectrum | Exotics | Tetraquark
+$p_\text{T}$ [GEV],$p_\text{T}$ [GEV] LOW,$p_\text{T}$ [GEV] HIGH,Yield of $T_{cc}\to D^0D^0\pi^+$ [GEV**-1],stat +,stat -
+2.843965,0.0,5.68793,41.09284,9.86589,-9.86589
+6.74686,5.68793,7.80579,72.2226,11.80657,-11.80657
+9.198985,7.80579,10.59218,40.34232,8.91109,-8.91109
+25.29609,10.59218,40.0,27.095,7.14584,-7.14584
+
+$p_\text{T}$ [GEV],$p_\text{T}$ [GEV] LOW,$p_\text{T}$ [GEV] HIGH,Yield of $D^0D^0$ [GEV**-1],stat +,stat -
+2.843965,0.0,5.68793,45.75707,0.27264,-0.27264
+6.74686,5.68793,7.80579,45.1334,0.24707,-0.24707
+9.198985,7.80579,10.59218,45.02016,0.24323,-0.24323
+25.29609,10.59218,40.0,44.84212,0.24081,-0.24081
+
+$p_\text{T}$ [GEV],$p_\text{T}$ [GEV] LOW,$p_\text{T}$ [GEV] HIGH,Yield of $D^0\bar{D}^0$ [GEV**-1],stat +,stat -
+2.843965,0.0,5.68793,81.43666,2.38565,-2.38565
+6.74686,5.68793,7.80579,53.28925,1.63768,-1.63768
+9.198985,7.80579,10.59218,31.1225,1.3981,-1.3981
+25.29609,10.59218,40.0,14.90435,1.24438,-1.24438
+
