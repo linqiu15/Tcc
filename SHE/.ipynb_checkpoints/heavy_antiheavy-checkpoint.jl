@@ -14,11 +14,11 @@ function potential_Xn(r, Λ; C = 1, a = 0, st = [1, 0], full = true, particle = 
     end
     if full || ("ρ" in particle)
         res += -β^2 * gV^2 * (1 - q01^2 / mρn^2) / 4 * ft_scalar(r, Λ, mρn, q01) * os
-        res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mρn, q02) * ot - 2 / 3 * ft_square(r, Λ, mρn, q02) * os - a / 3 * δft(r, Λ, mρn, q02) * os) * (-1)
+        # res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mρn, q02) * ot - 2 / 3 * ft_square(r, Λ, mρn, q02) * os - a / 3 * δft(r, Λ, mρn, q02) * os) * (-1)
     end
     if full || ("ω" in particle)
         res += -β^2 * gV^2 * (1 - q01^2 / mω^2) / 4 * ft_scalar(r, Λ, mω, q01) * os
-        res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mω, q02) * ot - 2 / 3 * ft_square(r, Λ, mω, q02) * os - a / 3 * δft(r, Λ, mω, q02) * os) * (-1)
+        # res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mω, q02) * ot - 2 / 3 * ft_square(r, Λ, mω, q02) * os - a / 3 * δft(r, Λ, mω, q02) * os) * (-1)
     end
     if full || ("σ" in particle)
         res += -4 * gs^2 / 4 * ft_scalar(r, Λ, mσ, q01) * os
@@ -35,7 +35,7 @@ function potential_Xcross(r, Λ; C = 1, a = 0, st = [1, 0], full = true, particl
 
     if full || ("ρ" in particle)
         res += -(√2 * gV * β)^2 * (1 - q01^2 / mρc^2) / 4 * ft_scalar(r, Λ, mρc, q01) * os
-        res += (-C) * (-1) * (2 * √2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mρc, q02) * ot - 2 / 3 * ft_square(r, Λ, mρc, q02) * os - a / 3 * δft(r, Λ, mρc, q02) * os) * (-1)
+        # res += (-C) * (-1) * (2 * √2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mρc, q02) * ot - 2 / 3 * ft_square(r, Λ, mρc, q02) * os - a / 3 * δft(r, Λ, mρc, q02) * os) * (-1)
     end
     if full || ("π" in particle)
         res += (-C) * (2 * g / fπ)^2 / 4 * (ft_tensor(r, Λ, mπc, q02) * ot + 1 / 3 * ft_square(r, Λ, mπc, q02) * os - a / 3 * δft(r, Λ, mπc, q02) * os)
@@ -59,11 +59,11 @@ function potential_Xc(r, Λ; C = 1, a = 0, st = [1, 0], full = true, particle = 
     end
     if full || ("ρ" in particle)
         res += -β^2 * gV^2 * (1 - q01^2 / mρn^2) / 4 * ft_scalar(r, Λ, mρn, q01) * os
-        res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mρn, q02) * ot - 2 / 3 * ft_square(r, Λ, mρn, q02) * os - a / 3 * δft(r, Λ, mρn, q02) * os) * (-1)
+        # res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mρn, q02) * ot - 2 / 3 * ft_square(r, Λ, mρn, q02) * os - a / 3 * δft(r, Λ, mρn, q02) * os) * (-1)
     end
     if full || ("ω" in particle)
         res += -β^2 * gV^2 * (1 - q01^2 / mω^2) / 4 * ft_scalar(r, Λ, mω, q01) * os
-        res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mω, q02) * ot - 2 / 3 * ft_square(r, Λ, mω, q02) * os - a / 3 * δft(r, Λ, mω, q02) * os) * (-1)
+        # res += (-C) * (-1) * (2 * gλ * gV)^2 / 4 * (ft_tensor(r, Λ, mω, q02) * ot - 2 / 3 * ft_square(r, Λ, mω, q02) * os - a / 3 * δft(r, Λ, mω, q02) * os) * (-1)
     end
     if full || ("σ" in particle)
         res += -4 * gs^2 / 4 * ft_scalar(r, Λ, mσ, q01) * os
